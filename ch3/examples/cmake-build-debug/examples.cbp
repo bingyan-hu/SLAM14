@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="examples"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\..\..\usr\lib\;CMake Files\..\..\..\..\..\..\..\usr\lib\cmake\;CMake Files\..\..\..\..\..\..\..\usr\lib\cmake\eigen3\;CMake Files\..\..\..\slambook2\;CMake Files\..\..\..\slambook2\3rdparty\;CMake Files\..\..\..\slambook2\3rdparty\Pangolin\;CMake Files\..\..\..\slambook2\3rdparty\Pangolin\build\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/hby/Documents/SLAM2/slamtry/ch3/examples/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/hby/Documents/SLAM2/slamtry/ch3/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/hby/Documents/SLAM2/slamtry/ch3/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/hby/Documents/SLAM2/slamtry/ch3/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/hby/Documents/SLAM2/slamtry/ch3/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/hby/Documents/SLAM2/slamtry/ch3/examples/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/hby/Documents/SLAM2/slamtry/ch3/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/hby/Documents/SLAM2/slamtry/ch3/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/hby/Documents/SLAM2/slamtry/ch3/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/hby/Documents/SLAM2/slamtry/ch3/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/hby/Documents/SLAM2/slamtry/ch3/examples/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/hby/Documents/SLAM2/slamtry/ch3/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/hby/Documents/SLAM2/slamtry/ch3/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/hby/Documents/SLAM2/slamtry/ch3/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/hby/Documents/SLAM2/slamtry/ch3/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="plotTrajectory">
+				<Option output="/home/hby/Documents/SLAM2/slamtry/ch3/examples/cmake-build-debug/plotTrajectory" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hby/Documents/SLAM2/slamtry/ch3/examples/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_LINUX_"/>
+					<Add option="-DHAVE_EIGEN"/>
+					<Add option="-DHAVE_EPOXY"/>
+					<Add option="-DPANGO_DEFAULT_WIN_URI=&quot;x11&quot;"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/home/hby/Documents/SLAM2/slambook2/3rdparty/Pangolin/components/pango_core/include"/>
+					<Add directory="/home/hby/Documents/SLAM2/slambook2/3rdparty/Pangolin/components/pango_display/include"/>
+					<Add directory="/home/hby/Documents/SLAM2/slambook2/3rdparty/Pangolin/components/pango_opengl/include"/>
+					<Add directory="/home/hby/Documents/SLAM2/slambook2/3rdparty/Pangolin/components/pango_image/include"/>
+					<Add directory="/home/hby/Documents/SLAM2/slambook2/3rdparty/Pangolin/components/pango_windowing/include"/>
+					<Add directory="/home/hby/Documents/SLAM2/slambook2/3rdparty/Pangolin/build/include"/>
+					<Add directory="/home/hby/Documents/SLAM2/slambook2/3rdparty/Pangolin/components/pango_vars/include"/>
+					<Add directory="/home/hby/Documents/SLAM2/slambook2/3rdparty/Pangolin/components/pango_geometry/include"/>
+					<Add directory="/home/hby/Documents/SLAM2/slambook2/3rdparty/Pangolin/components/tinyobj/include"/>
+					<Add directory="/home/hby/Documents/SLAM2/slambook2/3rdparty/Pangolin/components/pango_glgeometry/include"/>
+					<Add directory="/home/hby/Documents/SLAM2/slambook2/3rdparty/Pangolin/components/pango_packetstream/include"/>
+					<Add directory="/home/hby/Documents/SLAM2/slambook2/3rdparty/Pangolin/components/pango_plot/include"/>
+					<Add directory="/home/hby/Documents/SLAM2/slambook2/3rdparty/Pangolin/components/pango_scene/include"/>
+					<Add directory="/home/hby/Documents/SLAM2/slambook2/3rdparty/Pangolin/components/pango_tools/include"/>
+					<Add directory="/home/hby/Documents/SLAM2/slambook2/3rdparty/Pangolin/components/pango_video/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/hby/Documents/SLAM2/slamtry/ch3/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 plotTrajectory"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/hby/Documents/SLAM2/slamtry/ch3/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/hby/Documents/SLAM2/slamtry/ch3/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/hby/Documents/SLAM2/slamtry/ch3/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="plotTrajectory/fast">
+				<Option output="/home/hby/Documents/SLAM2/slamtry/ch3/examples/cmake-build-debug/plotTrajectory" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hby/Documents/SLAM2/slamtry/ch3/examples/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_LINUX_"/>
+					<Add option="-DHAVE_EIGEN"/>
+					<Add option="-DHAVE_EPOXY"/>
+					<Add option="-DPANGO_DEFAULT_WIN_URI=&quot;x11&quot;"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/home/hby/Documents/SLAM2/slambook2/3rdparty/Pangolin/components/pango_core/include"/>
+					<Add directory="/home/hby/Documents/SLAM2/slambook2/3rdparty/Pangolin/components/pango_display/include"/>
+					<Add directory="/home/hby/Documents/SLAM2/slambook2/3rdparty/Pangolin/components/pango_opengl/include"/>
+					<Add directory="/home/hby/Documents/SLAM2/slambook2/3rdparty/Pangolin/components/pango_image/include"/>
+					<Add directory="/home/hby/Documents/SLAM2/slambook2/3rdparty/Pangolin/components/pango_windowing/include"/>
+					<Add directory="/home/hby/Documents/SLAM2/slambook2/3rdparty/Pangolin/build/include"/>
+					<Add directory="/home/hby/Documents/SLAM2/slambook2/3rdparty/Pangolin/components/pango_vars/include"/>
+					<Add directory="/home/hby/Documents/SLAM2/slambook2/3rdparty/Pangolin/components/pango_geometry/include"/>
+					<Add directory="/home/hby/Documents/SLAM2/slambook2/3rdparty/Pangolin/components/tinyobj/include"/>
+					<Add directory="/home/hby/Documents/SLAM2/slambook2/3rdparty/Pangolin/components/pango_glgeometry/include"/>
+					<Add directory="/home/hby/Documents/SLAM2/slambook2/3rdparty/Pangolin/components/pango_packetstream/include"/>
+					<Add directory="/home/hby/Documents/SLAM2/slambook2/3rdparty/Pangolin/components/pango_plot/include"/>
+					<Add directory="/home/hby/Documents/SLAM2/slambook2/3rdparty/Pangolin/components/pango_scene/include"/>
+					<Add directory="/home/hby/Documents/SLAM2/slambook2/3rdparty/Pangolin/components/pango_tools/include"/>
+					<Add directory="/home/hby/Documents/SLAM2/slambook2/3rdparty/Pangolin/components/pango_video/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/hby/Documents/SLAM2/slamtry/ch3/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 plotTrajectory/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/hby/Documents/SLAM2/slamtry/ch3/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/hby/Documents/SLAM2/slamtry/ch3/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/hby/Documents/SLAM2/slamtry/ch3/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="coordinateTransform">
+				<Option output="/home/hby/Documents/SLAM2/slamtry/ch3/examples/cmake-build-debug/coordinateTransform" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hby/Documents/SLAM2/slamtry/ch3/examples/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/hby/Documents/SLAM2/slamtry/ch3/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 coordinateTransform"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/hby/Documents/SLAM2/slamtry/ch3/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/hby/Documents/SLAM2/slamtry/ch3/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/hby/Documents/SLAM2/slamtry/ch3/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="coordinateTransform/fast">
+				<Option output="/home/hby/Documents/SLAM2/slamtry/ch3/examples/cmake-build-debug/coordinateTransform" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hby/Documents/SLAM2/slamtry/ch3/examples/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/hby/Documents/SLAM2/slamtry/ch3/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 coordinateTransform/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/hby/Documents/SLAM2/slamtry/ch3/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/hby/Documents/SLAM2/slamtry/ch3/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/hby/Documents/SLAM2/slamtry/ch3/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/hby/Documents/SLAM2/slamtry/ch3/examples/coordinateTransform.cpp">
+			<Option target="coordinateTransform"/>
+		</Unit>
+		<Unit filename="/home/hby/Documents/SLAM2/slamtry/ch3/examples/plotTrajectory.cpp">
+			<Option target="plotTrajectory"/>
+		</Unit>
+		<Unit filename="/home/hby/Documents/SLAM2/slamtry/ch3/examples/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/hby/Documents/SLAM2/slamtry/ch3/examples/../../../../../../../usr/lib/cmake/eigen3/Eigen3Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\cmake\eigen3\"/>
+		</Unit>
+		<Unit filename="/home/hby/Documents/SLAM2/slamtry/ch3/examples/../../../../../../../usr/lib/cmake/eigen3/Eigen3ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\cmake\eigen3\"/>
+		</Unit>
+		<Unit filename="/home/hby/Documents/SLAM2/slamtry/ch3/examples/../../../../../../../usr/lib/cmake/eigen3/Eigen3Targets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\cmake\eigen3\"/>
+		</Unit>
+		<Unit filename="/home/hby/Documents/SLAM2/slamtry/ch3/examples/../../../slambook2/3rdparty/Pangolin/build/PangolinConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\slambook2\3rdparty\Pangolin\build\"/>
+		</Unit>
+		<Unit filename="/home/hby/Documents/SLAM2/slamtry/ch3/examples/../../../slambook2/3rdparty/Pangolin/build/PangolinConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\slambook2\3rdparty\Pangolin\build\"/>
+		</Unit>
+		<Unit filename="/home/hby/Documents/SLAM2/slamtry/ch3/examples/../../../slambook2/3rdparty/Pangolin/build/PangolinTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\slambook2\3rdparty\Pangolin\build\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
