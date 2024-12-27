@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/hby/Documents/SLAM2/slamtry/ch4/example/trajectoryError.cpp
+iostream
+-
+unistd.h
+-
+sophus/se3.hpp
+-
+pangolin/pangolin.h
+-
+
