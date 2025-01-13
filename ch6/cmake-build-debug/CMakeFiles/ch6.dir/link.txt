@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/ch6.dir/gaussNewton.cpp.o -o ch6 
